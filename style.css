@@ -1600,3 +1600,114 @@ PROJECTS SECTION
     }
 
 }
+
+/* =========================
+CERTIFICATIONS
+========================= */
+
+.certifications-section{
+
+    padding:120px 8%;
+
+}
+
+.certifications-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(300px,1fr));
+
+    gap:35px;
+
+    margin-top:60px;
+
+}
+
+.cert-card{
+
+    background:rgba(255,255,255,0.05);
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    border-radius:30px;
+
+    padding:35px;
+
+    backdrop-filter:blur(14px);
+
+    transition:0.4s ease;
+
+}
+
+.cert-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#ff4d6d;
+
+    box-shadow:0 0 35px rgba(255,77,109,0.3);
+
+}
+
+.cert-icon{
+
+    font-size:45px;
+
+    margin-bottom:25px;
+
+}
+
+.cert-card h3{
+
+    font-size:24px;
+
+    margin-bottom:12px;
+
+}
+
+.cert-card p{
+
+    color:#d0d0d0;
+
+    margin-bottom:14px;
+
+    line-height:1.6;
+
+}
+
+.cert-card span{
+
+    color:#ff4d6d;
+
+    display:block;
+
+    margin-bottom:25px;
+
+    font-weight:600;
+
+}
+
+.cert-btn{
+
+    display:inline-block;
+
+    padding:14px 24px;
+
+    border-radius:50px;
+
+    background:#7a001f;
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:0.4s ease;
+
+}
+
+.cert-btn:hover{
+
+    transform:scale(1.05);
+
+}
